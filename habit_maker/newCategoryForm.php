@@ -6,23 +6,34 @@
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" type="text/css" href="habit.css" />
- <title>Create the new Category</title>
- <h1>Set up the new Category
+ <title>Create a new Habit</title>
+ <h1>Set up the new Habit :)
  </h1>
 </head>
 
 <body>
  <form>
-  <label for="nameCat">Name of the category: </label>
-  <input type="text" id="nameCat" name="nameCat" minlength="1" required>
-  <br>
-  <label for="importanceCat">Importance of the category:</label>
-  <input type="text" id="importanceCat" name="importanceCat" minlength="1">
-  <br>
-  <?php 
-   /*
-  <a href="index.html"><button type="submit" id="submit"> <img src="images\submit.png" alt="Submit"></button></a>
-  */?>
+  <table>
+   <tr>
+    <td>
+     <label for="nameCat">Name of the category: </label>
+    </td>
+    <td>
+     <input type="text" id="nameCat" name="NAMECAT" minlength="1">
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <label for="nameHabit">Name of Habit:</label>
+    </td>
+    <td>
+     <input type="text" id="nameHabit" name="NAMEHABIT" minlength="1" required>
+    </td>
+   </tr>
+  </table>
+  <input type="image" id="SubmitHabit" src="images\submit.png" onclick="saveSubmittedHabit();"
+   alt="Submit A Habit"></input>
+
  </form>
 
 </body>
