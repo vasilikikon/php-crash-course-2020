@@ -1,7 +1,7 @@
 <?php
 
 $returnvalue = "";
-
+echo $_REQUEST('NAMECAT');
 // the values passed in this parameters are:  the host, the user, user password and the database Name
   $con = mysqli_connect('localhost', 'root', '', 'test');
   if ($con->connect_error) {

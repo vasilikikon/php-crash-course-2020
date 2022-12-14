@@ -27,7 +27,7 @@
      <label for="nameHabit">Name of Habit:</label>
     </td>
     <td>
-     <input type="text" id="nameHabit" name="NAMEHABIT" minlength="1" required>
+     <input type="text" id="nameHabit" name="NAMEHABIT" minlength="1" onchange="test()" required>
     </td>
    </tr>
   </table>
